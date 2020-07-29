@@ -1,0 +1,195 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1
+{
+    margin-bottom: 40px;
+}
+h3
+{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position:under ;
+    color: black;
+    letter-spacing: 2px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.background
+{
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.admin-background
+{
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.form-container
+{
+    margin-top: 80px;
+    background-color: #000000d1;
+    padding: 50px 60px;
+    -webkit-box-shadow: 0px 7px 13px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 13px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 13px 2px rgba(0,0,0,0.75);
+}
+/* .Container
+{
+    width: 90;
+    margin:auto;
+    overflow: hidden;
+} */
+#Contact-section
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../images/burger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+#Contact-section .container h2
+{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position:under ;
+    color: white;
+    letter-spacing: 2px;
+
+}
+.contact-form i.fa{
+    font-size: 22px;
+    padding: 30px;
+    background-color: none;
+    margin: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 80%;
+    color: white;
+}
+.contact-form
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form-info
+{
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 2px;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(136, 133, 133, 0.5);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+textarea
+{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(136, 133, 133, 0.5);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+input::placeholder
+{
+    color: #fff;
+}
+textarea::placeholder
+{
+    color: #fff;
+}
+.submit
+{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 2%;
+    border: 1px solid white;
+    color: white;
+}
+.submit:hover
+{
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+/**** Media Queries ****/
+@media (max-width:768px)
+{
+    #Contact-section .contact-form
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #Contact-section .submit
+    {
+        width: 60%;
+
+    }
+}
+#Register-Section
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../images/burger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+#Register-Section .container h2
+{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position:under ;
+    color: white;
+    letter-spacing: 2px;
+
+}
+.input-group
+{
+    background-color: #32637b;
+}
+.btn-theme
+{
+    background-color: crimson;
+}
+.imageHeight
+{
+    height:280px;
+    width: 220px;
+}
